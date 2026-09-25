@@ -3,3 +3,5 @@ The mechanic I prototyped is the dash-jump from Deadlock. The mechanic works by 
 I have no interface in my project, as my mechanic is purely movement and does not require the player character to interact with any objects. Delta Time is utilized throughout my code to keep track of the time windows for the dash-jump and allow the player move. My mechanic only needed early initiation code which is under Awake. The code there sets the dashJumpTimer as well as sets the Rigidbody to rb.
 
 I did not have to adjust anything to hit my scope. I started with a decently small scope, so it was relatively simple to accomplish. I did have to add an additional cube to my scene though to make sure the movement could actually be measured.
+
+The video of the mechanic is located in the Renders folder!!
