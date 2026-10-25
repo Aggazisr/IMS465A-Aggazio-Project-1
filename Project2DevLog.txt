@@ -1,0 +1,8 @@
+10/24 9:07p-9:23p : Implementing the Crosshair
+10/24 9:23p-10:45p : Adding reactive text indicating whether the Dash Jump was too early or too late
+10/24 10:45p-11:42p : Adding the stamina bars and adjusting the jump and sprint code to only work when stamina is available for use
+10/24 11:53p-10/25 12:00a : Fixing the stamina timer so it resets each time stamina is used rather than consistently counting up
+
+Implemented Features: I added a crosshair to mark out where the center of the screen is. I also got text to pop up telling the player whether their attempted sprint jump was early or late. Finally, I got the stamina bars to work, allowing the player to jump or sprint only when they have stamina.
+
+I ran into quite a few road blocks while working on this project. Mainly with getting the words to pop up at the right moments. I couldn't figure out where to put the if/else statements in the code, and had to trial and error move them around constantly. Eventually, I realized that the placement of the statements wasn't the issue, it was that the variable I was scaling off of (dashJumpTimer) counted down instead of up. Once I edited the code to account for that, it was smooth sailing in getting them to work. The stamina bars were also a bit complicated, as I accidentally used the wrong inequality symbol and couldn't figure out the problem. I also had to play with the timing on the stamina refill a bit, as I didn't account for sprinting or jumping in success messing with the refill times. 
